@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>BUG Traker-Messages</title>
+     <link rel = "icon" type = "image/png" href = "img/icon.png">
+
+<!-- load stylesheets -->
+  <!-- Google web font "Open Sans", https://fonts.google.com/ -->
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400">   
+      <!-- Font Awesome, http://fontawesome.io/ -->
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  
+<!-- Bootstrap style, http://v4-alpha.getbootstrap.com/ -->
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+   <!-- Templatemo style -->  
+
+<link rel="stylesheet" href="css/tooplate-style.css">                           
+   
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="tm-body margin-b-50">
+            <div class="tm-sidebar">
+                <section id="welcome" class="tm-content-box tm-banner margin-b-15">
+                    <div class="tm-banner-inner">
+                        <img src="img/bug2.png" style="width:100px;height:100px">
+                            <h1 class="tm-banner-title">BUG Tracker</h1>
+                        <p class="tm-banner-subtitle"></p>                   
+                    </div>                    
+                </section>
+                <nav class="tm-main-nav">
+                    <ul class="tm-main-nav-ul">
+                     <li class="tm-nav-item" ><a href="newbugs.html" class="tm-nav-item-link tm-button"><i class="fa fa-bug" style="font-size:60px;color: black"></i><br>New Bugs</a>
+                            </li>
+ 
+                       
+                        <li class="tm-nav-item"><a href="view.html" class="tm-nav-item-link tm-button "><img src="img/view.png" style="width: 80px;height:60px"><br>Flow Bugs</a>
+                            </li>
+                           <li class="tm-nav-item"><a href="messages.html" class="tm-nav-item-link tm-button active"><img src="img/message.png" style="width: 80px;height:60px"><br>Messages</a>
+                            </li>
+                          <li class="tm-nav-item"><a href="" class="tm-nav-item-link tm-button"><img src="img/logout.png" style="width: 80px;height:60px"><br>Log Out</a>
+                            </li>
+                    </ul>
+                </nav>
+            </div>
+        </div> 
+    </div> <!-- container-fluid -->
+<div class="tm-main-content3">
+             <fieldset>
+              <legend > Message </legend>
+               <form  action="" name ="message" method="post">
+            <div class="form-group">
+               <label   class="label" for="Customer Username">Choose Customer Username</label>
+               <select class="form-control" id="select" >
+               <option>1</option>
+               <option>2</option>
+               <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              </select>
+            </div>
+
+        <div class="form-group">
+           <label class="label" for="textarea">Bug Solution</label>
+           <textarea class="form-control" id="Textarea" rows="3" ></textarea>
+         </div>
+                   
+        <div class="section-btn">
+             <button type="submit"  id="cf-submit" name="submit">
+              <span data-hover="Send">Send</span></button>
+        </div>
+                 </form>
+    </fieldset>
+    </div>
+    
+    <!-- load JS files -->
+       <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
+    <script>  
+
+    </script>
+</body>
+</html>

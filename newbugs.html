@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BUG Tracker-New BUGs</title>
+    <link rel = "icon" type = "image/png" href = "img/icon.png">
+
+
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400"> <!-- Google web font "Open Sans", https://fonts.google.com/ -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">         <!-- Font Awesome, http://fontawesome.io/ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">                               <!-- Bootstrap styles, https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="css/tooplate-style.css">                            <!-- Templatemo style -->
+<script>
+    
+    </script>
+      </head>
+
+      <body> 
+        <div class="container-fluid">
+            <div class="tm-body">
+                <div class="tm-sidebar sticky">
+                    <section id="welcome" class="tm-content-box tm-banner margin-b-15">
+                        <div class="tm-banner-inner">
+                       <img src="img/bug2.png" style="width:100px;height:100px">
+                            <h1 class="tm-banner-title">BUG Tracker</h1>
+                            <p class="tm-banner-subtitle"></p>                   
+                        </div>                    
+                    </section>
+                    <nav class="tm-main-nav">
+                        <ul class="tm-main-nav-ul">
+                            <li class="tm-nav-item" ><a href="newbugs.html" class="tm-nav-item-link tm-button active"><i class="fa fa-bug" style="font-size:60px;color:black"></i><br>New Bugs</a>
+                            </li>
+                    
+                            <li class="tm-nav-item"><a href="view.html" class="tm-nav-item-link tm-button"><img src="img/view.png" style="width: 80px;height:60px"><br>Flow Bugs</a>
+                            </li>
+                             <li class="tm-nav-item"><a href="messages.html" class="tm-nav-item-link tm-button"><img src="img/message.png" style="width: 80px;height:60px"><br>Messages</a>
+                            </li>
+                            <li class="tm-nav-item"><a href="" class="tm-nav-item-link tm-button"><img src="img/logout.png" style="width: 80px;height:60px"><br>Log Out</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+           
+        </div> <!-- container-fluid -->
+            
+        <table class="table">
+            <thead class="t-head" style="background-color: #181883">
+               <tr>
+                  <th scope="col"></th>
+                  <th scope="col">Project name <img src="img/book.png" style="width: 30px;height:40px"></th>
+                  <th scope="col">Customer name <img src="img/person.png" style="width: 30px;height:40px"></th>
+                  <th scope="col">Details <img src="img/details.webp" style="width: 30px;height:40px"></th>
+               </tr>
+             </thead>
+            
+             <tbody>
+                <tr>
+                  <td>1</td>
+                  <td></td>
+                  <td></td>
+                  <td><a href="show%20details.html" >Show details</a></td>
+                 </tr>
+               <tr>
+                  <td>2</td>
+                  <td></td>
+                  <td></td>
+                  <td><a href="show%20details.html" >Show details</a></td>
+               </tr>
+                <tr>
+                  <td>3</td>
+                  <td></td>
+                  <td></td>
+                  <td><a href="show%20details.html" >Show details</a></td>
+               </tr>
+                 <tr>
+                  <td>4</td>
+                  <td></td>
+                  <td></td>
+                  <td><a href="show%20details.html" >Show details</a></td>
+                </tr>
+                 <tr style="background-color: #181883 ">
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                 </tr>
+         </tbody>
+            
+          </table> 
+          
+     </div>
+
+        <!-- load JS files -->
+             <script src="js/bootstrap.min.js"></script>
+        
+        <script src="js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
+        <script src="js/imagesloaded.pkgd.min.js"></script> <!-- https://masonry.desandro.com/ -->
+        <script src="js/masonry.pkgd.min.js"></script> <!-- https://masonry.desandro.com/ -->
+        
+        <!-- Templatemo scripts -->
+         <script>  
+    
+        $(document).ready(function(){
+
+            // init Masonry
+            // https://codepen.io/craigwheeler/pen/MYjBga
+            var $grid = $('.grid').masonry({
+                
+                // set itemSelector so .grid-sizer is not used in layout
+                // itemSelector: '.grid-item',
+                // use element for option
+                // columnWidth: '.grid-sizer',
+                // percentPosition: true
+
+                itemSelector: '.grid-item',
+                isFitWidth: true,
+                columnWidth: 1
+            });
+            // layout Masonry after each image loads
+            $grid.imagesLoaded().progress( function() {
+              $grid.masonry('layout');
+            });  
+            
+          </script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">  
+    </script>
+
+    </body>
+    </html>

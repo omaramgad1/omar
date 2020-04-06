@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>BUG Traker-Flow BUGs</title>
+     <link rel = "icon" type = "image/png" href = "img/icon.png">
+
+<!-- load stylesheets -->
+  <!-- Google web font "Open Sans", https://fonts.google.com/ -->
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400">   
+      <!-- Font Awesome, http://fontawesome.io/ -->
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  
+<!-- Bootstrap style, http://v4-alpha.getbootstrap.com/ -->
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+   <!-- Templatemo style -->  
+
+<link rel="stylesheet" href="css/tooplate-style.css">                           
+   
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="tm-body margin-b-50">
+            <div class="tm-sidebar">
+                <section id="welcome" class="tm-content-box tm-banner margin-b-15">
+                    <div class="tm-banner-inner">
+                        <img src="img/bug2.png" style="width:100px;height:100px">
+                            <h1 class="tm-banner-title">BUG Tracker</h1>
+                        <p class="tm-banner-subtitle"></p>                   
+                    </div>                    
+                </section>
+                <nav class="tm-main-nav">
+                    <ul class="tm-main-nav-ul">
+                     <li class="tm-nav-item" ><a href="newbugs.html" class="tm-nav-item-link tm-button"><i class="fa fa-bug" style="font-size:60px;color: black"></i><br>New Bugs</a>
+                            </li>
+           
+                       
+                        <li class="tm-nav-item"><a href="view.html" class="tm-nav-item-link tm-button active"><img src="img/view.png" style="width: 80px;height:60px"><br>Flow Bugs</a>
+                            </li>
+                           <li class="tm-nav-item"><a href="messages.html" class="tm-nav-item-link tm-button"><img src="img/message.png" style="width: 80px;height:60px"><br>Messages</a>
+                            </li>
+                          <li class="tm-nav-item"><a href="" class="tm-nav-item-link tm-button"><img src="img/logout.png" style="width: 80px;height:60px"><br>Log Out</a>
+                            </li>
+                    </ul>
+                </nav>
+            </div>    
+        </div> 
+    </div> <!-- container-fluid -->
+    
+    <div class="container">
+       <table class="table1">
+            <thead class="table-head" style="background-color: #181883">
+               <tr>
+                  <th scope="col"></th>
+                  <th scope="col" style="text-align: center; font-size: 30px"> Project name <img src="img/book.png" style="width: 30px;height:40px"></th>
+                   <th scope="col" style="text-align: center;font-size: 30px"  > State <img src="img/state.png" style="width: 30px;height:40px"></th>
+                   <th scope="col" style="text-align: center;font-size: 30px">_</th>
+               </tr>
+             </thead>
+            
+             <tbody>
+                <tr>
+                  <td> 1</td>
+                  <td></td>
+                    
+                  <td><br><button type="button" class="btn btn-info"data-target="#mymodel" data-toggle="modal">Change</button><div class="modal" id="mymodel">
+                  <div class="modal-dialog model-dialog-centered">
+                  <form class="block" >
+                  <h1 style="color:#ffffff ;display: block;background-color:#181883">Choose state</h1>
+                      <div style="background-color: white;height: 190px;border-radius: 15px">
+                   <div class="form-check" style="background-color: white">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" style="left: 80px">
+                     <label class="form-check-label" for="exampleRadios1" style="color: #181883;font-size: 20px">
+                        Assigned
+                      </label>
+                     </div>
+                    <div class="form-check" style="background-color: white">
+                   <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" style="left:80px">
+                   <label class="form-check-label" for="exampleRadios2" style="color: #181883;font-size: 20px">
+                  Solved
+                   </label>
+                   </div>
+                  <div class="form-check" style="background-color: white">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" style="left:80px" >
+                      <label class="form-check-label" for="exampleRadios3" style="color: #181883;font-size: 20px" >
+                       Still working on it
+                    </label>
+                   </div>
+                  <input type="submit"  value="OK" class="ok"  >
+                   <input type="submit"  value="close" class="ok1" >
+                    </div>
+                  </form>
+                   </div>
+                      </div>
+                      
+                      </td>
+                    
+                  <td><a href="assign.html" >Assign to another staff</a></td>
+                   
+               </tr>
+               <tr>
+                  <td> 2</td>
+                   <td></td>
+                  <td><br><button type="button" class="btn btn-info"data-target="#mymodel" data-toggle="modal">Change</button><div class="modal" id="mymodel">
+                  <div class="modal-dialog model-dialog-centered">
+                  <form class="block" >
+                  <h1 style="color:#ffffff ;display: block;background-color:#181883">Choose state</h1>
+                      <div style="background-color: white;height: 190px;border-radius: 15px">
+                   <div class="form-check" style="background-color: white">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" style="left: 80px">
+                     <label class="form-check-label" for="exampleRadios1" style="color: #181883;font-size: 20px">
+                        Assigned
+                      </label>
+                     </div>
+                    <div class="form-check" style="background-color: white">
+                   <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" style="left:80px">
+                   <label class="form-check-label" for="exampleRadios2" style="color: #181883;font-size: 20px">
+                  Solved
+                   </label>
+                   </div>
+                  <div class="form-check" style="background-color: white">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" style="left:80px" >
+                      <label class="form-check-label" for="exampleRadios3" style="color: #181883;font-size: 20px" >
+                       Still working on it
+                    </label>
+                   </div>
+                  <input type="submit"  value="OK" class="ok" >
+                   <input type="submit"  value="close" class="ok1" data-dismiss="modal">
+                    </div>
+                  </form>
+                   </div>
+                      </div>
+                      
+                      </td>
+                   
+                   <td><a href="assign.html" >Assign to another staff</a></td>
+                   
+                   
+                   
+                   
+                   
+               </tr>
+                <tr>
+                  <td> 3</td>
+                  <td></td>
+                  <td><br><button type="button" class="btn btn-info"data-target="#mymodel" data-toggle="modal">Change</button><div class="modal" id="mymodel">
+                  <div class="modal-dialog model-dialog-centered">
+                  <form class="block" >
+                  <h1 style="color:#ffffff ;display: block;background-color:#181883">Choose state</h1>
+                      <div style="background-color: white;height: 190px;border-radius: 15px">
+                   <div class="form-check" style="background-color: white">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" style="left: 80px">
+                     <label class="form-check-label" for="exampleRadios1" style="color: #181883;font-size: 20px">
+                        Assigned
+                      </label>
+                     </div>
+                    <div class="form-check" style="background-color: white">
+                   <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" style="left:80px">
+                   <label class="form-check-label" for="exampleRadios2" style="color: #181883;font-size: 20px">
+                  Solved
+                   </label>
+                   </div>
+                  <div class="form-check" style="background-color: white">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" style="left:80px" >
+                      <label class="form-check-label" for="exampleRadios3" style="color: #181883;font-size: 20px" >
+                       Still working on it
+                    </label>
+                   </div>
+                  <input type="submit"  value="OK" class="ok" >
+                   <input type="submit"  value="close" class="ok1" data-dismiss="modal">
+                    </div>
+                  </form>
+                   </div>
+                      </div>
+                      
+                      </td>
+                    
+                    
+                  <td><a href="assign.html" >Assign to another staff</a></td>
+                    
+                 </tr>
+                 <tr>
+                  <td> 4</td>
+                  <td></td>
+                  <td><br><button type="button" class="btn btn-info"data-target="#mymodel" data-toggle="modal">Change</button><div class="modal" id="mymodel">
+                  <div class="modal-dialog model-dialog-centered">
+                  <form class="block" >
+                  <h1 style="color:#ffffff ;display: block;background-color:#181883">Choose state</h1>
+                      <div style="background-color: white;height: 190px;border-radius: 15px">
+                   <div class="form-check" style="background-color: white">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" style="left: 80px">
+                     <label class="form-check-label" for="exampleRadios1" style="color: #181883;font-size: 20px">
+                        Assigned
+                      </label>
+                     </div>
+                    <div class="form-check" style="background-color: white">
+                   <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" style="left:80px">
+                   <label class="form-check-label" for="exampleRadios2" style="color: #181883;font-size: 20px">
+                  Solved
+                   </label>
+                   </div>
+                  <div class="form-check" style="background-color: white">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" style="left:80px" >
+                      <label class="form-check-label" for="exampleRadios3" style="color: #181883;font-size: 20px" >
+                       Still working on it
+                    </label>
+                   </div>
+                   <button type="button" class="btn btn-outline-info" class="ok">OK</button>
+                   <button type="button" class="btn btn-outline-info" class="close">CLOSE</button>
+                    </div>
+                  </form>
+                   </div>
+                      </div>
+                      
+                      </td>
+                     
+                     
+                  <td><a href="assign.html" >Assign to another staff</a></td>
+                </tr>
+                 
+        <tr style="background-color: #181883 ">
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                 </tr>
+                 
+                 
+         </tbody>
+          </table>
+    </div>
+    <table class="table3">
+               <tr>
+                 <th>Project name</th> 
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+               </tr> 
+               <tr>
+                 <th>Your participants</th> 
+                 <td></td>
+                 <td></td>
+                 <td></td>
+                 <td></td>
+               </tr>
+    
+     
+    </table>
+    
+          
+         
+         
+ 
+
+    
+    
+    <!-- load JS files -->
+       <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">  
+    </script>
+</body>
+</html>
